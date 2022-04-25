@@ -1,0 +1,23 @@
+{
+  "name": "fishing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Msadeq12/fishing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Msadeq12/fishing/issues"
+  },
+  "homepage": "https://github.com/Msadeq12/fishing#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.3"
+  }
+}
