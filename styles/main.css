@@ -1,0 +1,13 @@
+section{
+    border: 2rem;
+    margin: 1rem;
+    background-color: white;
+}
+
+body{
+    background-image: linear-gradient(to bottom, white, white, rgb(188, 38, 38));
+}
+
+footer > h3{
+    color: white;
+}
