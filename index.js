@@ -28,8 +28,8 @@ webMail.post('/', (req, res) => {
         service: 'yahoo',
         secure: true,
         auth: {
-            user: "munfinancial@yahoo.com",
-            pass: "bbsswjlzntzurfne"
+            user: process.env.USER,
+            pass: process.env.PASS
         }       
     });
 
