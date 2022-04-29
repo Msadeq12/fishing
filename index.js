@@ -8,13 +8,10 @@ const webMail = express();
 webMail.use(bodyParser.urlencoded({extended: false}));
 webMail.use(express.static('templates'));
 webMail.use(express.static(__dirname));
-
-
-webMail.set("views", "pages");
-webMail.set("view engine", "ejs");
+webMail.use(express.static(__dirname + '/docs'));
 
 webMail.get('/', (req, res) => {
-    res.render('mail');
+    res.render('index');
 });
 
 webMail.post('/', (req, res) => {
